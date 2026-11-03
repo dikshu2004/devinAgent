@@ -9,6 +9,7 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "@types/node": "^26.6.6",
     "prettier": "3.9.6",
     "turbo": "^2.11.10",
     "typescript": "7.0.2"
@@ -25,5 +26,8 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "e2b": "^2.62.1"
+  }
 }

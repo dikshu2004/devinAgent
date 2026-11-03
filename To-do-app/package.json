@@ -1,0 +1,17 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "description": "Todo application with REST API, CLI, and Claude Agent tool definitions",
+  "main": "index.ts",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run server.ts",
+    "dev": "bun --watch server.ts",
+    "cli": "bun run cli.ts",
+    "test": "bun test"
+  },
+  "keywords": ["todo", "agent", "claude", "mcp", "tools"],
+  "license": "MIT"
+}
+
